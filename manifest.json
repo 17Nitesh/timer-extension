@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "timer",
+    "version" : "1.0",
+    "description" : "timer for improving CP skills",
+    "background" : {
+        "service_worker": "background.js" 
+    },
+    "action" : {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+    "48": "image4.png"
+  }
+}
